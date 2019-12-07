@@ -1,14 +1,17 @@
 # productNode
 
-nodejs+mongoDB+mongoose实现商品发布Demo，登录注册商品发布及商品列表
+nodejs+mongoDB+mongoose实现评论发布Demo，登录注册评论发布及评论列表
 
 1.执行npm install
 
-2.安装mongoDB，并启动mongo
+2.安装mongoDB，并启动mongo（保证服务开启）
 
-3.在根目录执行node app启动服务
+3.在database目录里更改数据库配置，连接自己的数据库（db.js文件,其他的文件是配置schema）
 
-4.在浏览器打开http://localhost:8000即可查看项目
+4.在根目录执行node app.js启动服务
+
+5.在浏览器打开http://localhost:8000即可查看项目
+
 
 
 
