@@ -139,9 +139,9 @@ c.app.listen(8000)启动服务，为8000端口
 	
 	})
 
-安装mongoose是nodejs中操作mongoDB数据库的框架，mongoose.connect('mongodb://localhost:27017//music_2')连接数据库，默认的端口号为27017，数据库名称为product，并监听open事件，和error事件，连接成功或连接失败都会进到相应的时间回调中。
+安装mongoose是nodejs中操作mongoDB数据库的框架，mongoose.connect('mongodb://localhost:27017//music_2')连接数据库，默认的端口号为27017，数据库名称为music_2，并监听open事件，和error事件，连接成功或连接失败都会进到相应的时间回调中。
 
-/database/produc.js指定集合product的数据结构，创建模型
+/database/coments.js指定集合coments的数据结构，创建模型
 
 	var mongoose = require('mongoose');
 
